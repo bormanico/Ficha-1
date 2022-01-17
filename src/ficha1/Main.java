@@ -6,6 +6,7 @@ public class Main {
 
 		System.out.println(soma(70, 9));
 		System.out.println(subtracao(78, 30));
+		System.out.println(complex(7, 9));
 	}
 
 	public static int soma(int int1, int int2) {
@@ -19,10 +20,13 @@ public class Main {
 
 		return subtract;
 	}
-	
-	public static int mult (int aNum1, int aNum2)
-	{
+
+	public static int mult(int aNum1, int aNum2) {
 		return aNum1 * aNum2;
 	}
 
+	public static int complex(int num1, int num2) {
+		int result = mult(num1, num2) + subtracao(num1, num2);
+		return result;
+	}
 }
