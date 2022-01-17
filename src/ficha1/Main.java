@@ -19,5 +19,10 @@ public class Main {
 
 		return subtract;
 	}
+	
+	public static int mult (int aNum1, int aNum2)
+	{
+		return aNum1 * aNum2;
+	}
 
 }
