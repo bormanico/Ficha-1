@@ -6,6 +6,7 @@ public class Main {
 
 		System.out.println(soma(70, 9));
 		System.out.println(subtracao(78, 30));
+		System.out.println(operacaoComplexa (3,3));
 	}
 
 	public static int soma(int int1, int int2) {
@@ -25,4 +26,9 @@ public class Main {
 		return aNum1 * aNum2;
 	}
 
+	public static int operacaoComplexa (int aNum1, int aNum2)
+	{
+		return soma (mult (aNum1, aNum2), subtracao (aNum1, aNum2));
+	}
+	
 }
